@@ -16,7 +16,9 @@ body{
     background-position: top left, bottom right;
     min-height: 100vh;
     font-family: 'League Spartan', sans-serif;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -139,6 +141,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
 
